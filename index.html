@@ -6,19 +6,9 @@
     <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
     <style>
         /* CSS code here */
-		@font-face {
-  font-family: 'MinecraftRegular';
-  src: url('./fonts/MinecraftRegular.ttf') format('truetype');
-}
-
-		@font-face {
-  font-family: 'MinecraftTen';
-  src: url('./fonts/MinecraftTen.ttf') format('truetype');
-}
-
         body {
             margin: 0;
-            font-family: MinecraftRegular, Arial, Helvetica, sans-serif;
+            font-family: Arial, Helvetica, sans-serif;
         }
         
         nav {
@@ -78,33 +68,33 @@
     
         .hero-text h1 {
             font-size: 30px;
-			font-family: MinecraftTen, Arial, Helvetica, sans-serif;
+            font-family: Arial, Helvetica, sans-serif;
         }
         button {
-      width: 300px;
-      padding: 15px 25px;
-      font-size: 20px;
-      font-family: MinecraftTen, Arial, Helvetica, sans-serif;
-      cursor: pointer;
-      color: #fff;
-      background-color: #3C8527;
-      text-shadow: 3px 3.2px #2A5D1B;
-      box-shadow: 0 4px #1D4D13;
-    }
+            width: 300px;
+            padding: 15px 25px;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            cursor: pointer;
+            color: #fff;
+            background-color: #3C8527;
+            text-shadow: 3px 3.2px #2A5D1B;
+            box-shadow: 0 4px #1D4D13;
+        }
 
-    /* hover state */
-    button:hover {
-      background-color: #52A535;
-      text-shadow: 3px 3.2px #397425;
-    }
+        /* hover state */
+        button:hover {
+            background-color: #52A535;
+            text-shadow: 3px 3.2px #397425;
+        }
 
-    /* pressed state */
-    button:active {
-      background-color: #2A641C;
-      box-shadow: none;
-      text-shadow: #1D4614;
-      transform: translateY(4px);
-    }
+        /* pressed state */
+        button:active {
+            background-color: #2A641C;
+            box-shadow: none;
+            text-shadow: #1D4614;
+            transform: translateY(4px);
+        }
     </style>
 </head>
 
@@ -124,19 +114,19 @@
         </div>
     </div>
     <audio id="myAudio">
-    <source src="https://dl.sndup.net/c7wz/release.ogg">
-  </audio>
+        <source src="https://dl.sndup.net/c7wz/release.ogg">
+    </audio>
     <script>
         // JavaScript code here
-		    var x = document.getElementById("myAudio");
+        var x = document.getElementById("myAudio");
 
-    function playAudio() {
-      x.play();
-    }
+        function playAudio() {
+            x.play();
+        }
 
-    function pauseAudio() {
-      x.pause();
-    }
+        function pauseAudio() {
+            x.pause();
+        }
     </script>
 </body>
 
